@@ -11,15 +11,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Disconnected_Environmet
+namespace Praktikum14_PDW_20210140065
 {
-    public partial class FormDataStatusMahasiswa : Form
+    public partial class FormDataMahasiswa : Form
     {
         private string stringConnection = "data source = ZEPHYRUS-NEROBA\\FRANCONERO;database=Data_Mahasiswa;user ID= sa; Password = 28112012";
         private SqlConnection koneksi;
         private string kstr;
 
-        public FormDataStatusMahasiswa()
+        public FormDataMahasiswa()
         {
             InitializeComponent();
             koneksi = new SqlConnection(kstr);

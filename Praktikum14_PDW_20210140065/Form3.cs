@@ -160,6 +160,18 @@ namespace Praktikum14_PDW_20210140065
             refreshform();
         }
 
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // FormDataMahasiswa
+            // 
+            this.ClientSize = new System.Drawing.Size(651, 244);
+            this.Name = "FormDataMahasiswa";
+            this.ResumeLayout(false);
+
+        }
+
         private void buttonClear_Click(object sender, EventArgs e)
         {
             refreshform();
